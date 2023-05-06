@@ -14,8 +14,344 @@
                 Name="PrintCanvas"
                 Background="White"
                 VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-                <StackPanel Orientation="Horizontal" Width="17cm" Height="25.7cm" Margin="3cm 2cm 1cm 2cm">
-                    
+                <Button Width="30" Click="Button_Click">
+                    <Image Source="/6195815.png" />
+                </Button>
+                <StackPanel Width="17cm" Height="25.7cm" Margin="3cm 2cm 1cm 2cm">
+                    <Border BorderBrush="#5996f7" Background="#5996f7" BorderThickness="1" Height="32" VerticalAlignment="Top" Width="645" Margin="0 0 0 10">
+                        <Label Foreground="White" FontSize="14" Content="ПЕРСОНАЛЬНАЯ ИНФОРМАЦИЯ"></Label>
+                    </Border>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label FontSize="12" Width="95" Content="Фамилия"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label FontSize="12" Width="95" Content="Имя"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="95" FontSize="12" Content="Отчество"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="95" Content="Дата рождения"></Label>
+
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Content="/" FontSize="20"></Label>
+
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Content="/" FontSize="20"></Label>
+
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <Border BorderBrush="#5996f7" Background="#5996f7" BorderThickness="1" Height="32" VerticalAlignment="Top" Width="645" Margin="0 0 0 10">
+                        <Label Foreground="White" FontSize="14" Content="КОНТАКТНАЯ ИНФОРМАЦИЯ"></Label>
+                    </Border>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="129" FontSize="12" Content="Почтовый индекс"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Content="Страна" Margin="36 0 35.8 0"></Label>
+                        
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="129" FontSize="12" Content="Респуб/Край/Область"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="129" FontSize="12" Content="Район"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="129" FontSize="12" Content="Населенный пункт"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="129" FontSize="12" Content="Улица"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="129" FontSize="12" ></Label>
+
+                        <Label Content="Дом" Margin="1 0 1 0"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Content="Корпус/Строение"  Margin="1 0 2 0"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Content="Квартира"  Margin="1 0 2 0"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
+                        <Label Width="129" FontSize="12" Content="Мобильный телефон"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25">
+                            <Label  Content="+" FontSize="14" HorizontalAlignment="Center" ></Label>
+                        </Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25">
+                            <Label  Content="7" FontSize="14" HorizontalAlignment="Center" ></Label>
+                        </Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25">
+                            <Label  Content="(" FontSize="10" HorizontalAlignment="Center" ></Label>
+                        </Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25">
+                            <Label  Content=")" FontSize="10" HorizontalAlignment="Center" ></Label>
+                        </Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="129" FontSize="12" Content="E-mail"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <Border BorderBrush="#5996f7" Background="#5996f7" BorderThickness="1" Height="32" VerticalAlignment="Top" Width="645" Margin="0 0 0 10">
+                        <Label Foreground="White" FontSize="14" Content="РАЗРЕШЕНИЕ НА ИСПОЛЬЗОВАНИЕ ПЕРСОНАЛЬНЫХ ДАННЫХ"></Label>
+                    </Border>
+
+                    <DockPanel>
+                        <Label Width="Auto" FontSize="12" Content="Я,"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Height="25">
+                            <Label HorizontalAlignment="Center" Content="(Фамилия, Имя, Отчество)" Opacity="0.4"></Label>
+                        </Border>
+                    </DockPanel>
+
+                    <DockPanel>
+                        <Label Width="Auto" FontSize="12" Content="Проживающий(-ая) по адресу: "></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Height="25"></Border>
+                    </DockPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="Auto" FontSize="12" Content="Паспорт" Margin="0 0 15 0"></Label>
+                        <Label Width="Auto" FontSize="12" Content="Серия" ></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Width="Auto" FontSize="12" Content="Номер" ></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="Auto" FontSize="12" Margin="0 0 15 0" Content="Выдан: "></Label>
+                        <Border BorderBrush="Black" Margin="2.5 2.5 25 2.5" BorderThickness="1" Width="330" Height="25"></Border>
+
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Content="/" FontSize="20"></Label>
+
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Content="/" FontSize="20"></Label>
+
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Height="343">
+                        <Label VerticalAlignment="Bottom" Width="Auto" FontSize="12" Margin="0 0 15 0" Content="Подпись "></Label>
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5 2.5 25 2.5" BorderThickness="1" Width="200" Height="25"></Border>
+
+                        <Label VerticalAlignment="Bottom" Width="Auto" FontSize="12" Margin="0 0 15 0" Content="Дата "></Label>
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label VerticalAlignment="Bottom" Content="/" FontSize="20"></Label>
+
+                        <Border VerticalAlignment="Bottom"  BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label VerticalAlignment="Bottom" Content="/" FontSize="20"></Label>
+
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
                 </StackPanel>
             </Canvas>
         </ScrollViewer>

@@ -15,14 +15,26 @@ using System.Windows.Shapes;
 
 namespace TemplateForPrintingUL
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            PrintDialog prnt = new PrintDialog();
+
+            if (prnt.ShowDialog() == true)
+            {
+                Size pageSize = new Size(prnt.PrintableAreaWidth, prnt.PrintableAreaHeight);
+                PrintCanvas.Measure(pageSize);
+                PrintCanvas.Arrange(new Rect(5, 5, pageSize.Width, pageSize.Height));
+                prnt.PrintVisual(PrintCanvas, "Printing Canvas");
+            }
+            Close();
         }
     }
 }

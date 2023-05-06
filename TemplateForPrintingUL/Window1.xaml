@@ -1,0 +1,94 @@
+﻿<Window x:Class="TemplateForPrintingUL.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TemplateForPrintingUL"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <ScrollViewer>
+            <Canvas 
+                Width="21cm" Height="29.7cm"
+                Name="PrintCanvas"
+                Background="White"
+                VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                <StackPanel Width="643" Height="358" Canvas.Left="113" Canvas.Top="76" HorizontalAlignment="Center" VerticalAlignment="Top">
+
+
+                    <Border BorderBrush="#5996f7" Background="#5996f7" BorderThickness="1" Height="32" VerticalAlignment="Top" Width="645" Margin="0 0 0 10">
+                        <Label Foreground="White" FontSize="14" Content="РАЗРЕШЕНИЕ НА ИСПОЛЬЗОВАНИЕ ПЕРСОНАЛЬНЫХ ДАННЫХ"></Label>
+                    </Border>
+
+                    <DockPanel>
+                        <Label Width="Auto" FontSize="12" Content="Я,"></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Height="25">
+                            <Label HorizontalAlignment="Center" Content="(Фамилия, Имя, Отчество)" Opacity="0.4"></Label>
+                        </Border>
+                    </DockPanel>
+
+                    <DockPanel>
+                        <Label Width="Auto" FontSize="12" Content="Проживающий(-ая) по адресу: "></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Height="25"></Border>
+                    </DockPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="Auto" FontSize="12" Content="Паспорт" Margin="0 0 15 0"></Label>
+                        <Label Width="Auto" FontSize="12" Content="Серия" ></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Width="Auto" FontSize="12" Content="Номер" ></Label>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="Auto" FontSize="12" Margin="0 0 15 0" Content="Выдан: "></Label>
+                        <Border BorderBrush="Black" Margin="2.5 2.5 25 2.5" BorderThickness="1" Width="330" Height="25"></Border>
+
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Content="/" FontSize="20"></Label>
+
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label Content="/" FontSize="20"></Label>
+
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Height="188">
+                        <Label VerticalAlignment="Bottom" Width="Auto" FontSize="12" Margin="0 0 15 0" Content="Подпись "></Label>
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5 2.5 25 2.5" BorderThickness="1" Width="200" Height="25"></Border>
+
+                        <Label VerticalAlignment="Bottom" Width="Auto" FontSize="12" Margin="0 0 15 0" Content="Дата "></Label>
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label VerticalAlignment="Bottom" Content="/" FontSize="20"></Label>
+
+                        <Border VerticalAlignment="Bottom"  BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+
+                        <Label VerticalAlignment="Bottom" Content="/" FontSize="20"></Label>
+
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                        <Border VerticalAlignment="Bottom" BorderBrush="Black" Margin="2.5" BorderThickness="1" Width="25" Height="25"></Border>
+                    </StackPanel>
+                </StackPanel>
+            </Canvas>
+        </ScrollViewer>
+
+    </Grid>
+</Window>
